@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-appx",
+  "version": "0.1.1",
+  "description": "ESLint plugin for appx",
+  "main": "lib/index.js",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "appx"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">= 4"
+  }
+}
